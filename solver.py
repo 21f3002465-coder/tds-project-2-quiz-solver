@@ -1,5 +1,4 @@
 # solver.py
-# solver.py  — FINAL UPDATED VERSION
 import os
 import io
 import re
@@ -247,7 +246,7 @@ Return ONLY JSON:
 
 
 # ---------------------------
-# SUBMISSION TO TDS GRADER
+# SUBMISSION 
 # ---------------------------
 
 async def _submit_to_analysis(email: str, secret: str, url: str, answer: Any, client: httpx.AsyncClient) -> Dict[str, Any]:
@@ -844,3 +843,4 @@ async def solve_quiz(email: str, secret: str, url: str, required_min_steps: int 
 #             except:
 #                 pass
 #         return response_text  # fallback
+
